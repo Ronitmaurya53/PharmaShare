@@ -20,7 +20,7 @@ import { handleAddItemCart } from "./store/cartProduct";
 import GlobalProvider from "./provider/GlobalProvider";
 import { FaCartShopping } from "react-icons/fa6";
 import CartMobileLink from "./components/CartMobile";
-import FloatingChatWidget from "./components/FloatingChatWidget"; // ✅ added
+import FloatingChatWidget from "./components/FloatingChatWidget"; 
 
 function App() {
   const dispatch = useDispatch();
