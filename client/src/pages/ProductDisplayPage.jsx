@@ -8,7 +8,7 @@ import { DisplayPriceInRupees } from '../utils/DisplayPriceInRupees'
 import Divider from '../components/Divider'
 import image1 from '../assets/minute_delivery.png'
 import image2 from '../assets/Best_Prices_Offers.png'
-import image3 from '../assets/Wide_Assortment.png'
+// import image3 from '../assets/Wide_Assortment.png'
 import { pricewithDiscount } from '../utils/PriceWithDiscount'
 import AddToCartButton from '../components/AddToCartButton'
 
@@ -189,12 +189,14 @@ const ProductDisplayPage = () => {
                       </div>
                   </div>
                   <div className='flex  items-center gap-4 my-4'>
-                      { <img
+                      {/* { <img
                         src={image3}
                         alt='wide'
                         className='w-20 h-20'
-                      /> 
+                      />  */
+                      <img src="/Wide_Assortment.png" />
                       }
+                      
                       <div className='text-sm'>
                         <div className='font-semibold'>Wide Assortment</div>
                         <p>Choose from 5000+ products across food personal care, household & other categories.</p>
