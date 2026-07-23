@@ -18,18 +18,12 @@ import chatRoute from "./route/chatRoute.js";
 
 const app = express()
 
-// app.use(cors({
-//     credentials : true,
-//     origin : process.env.FRONTEND_URL
-// }))
-
 app.use(cors({
-    origin: [
-        "http://localhost:5173", // Taki local par bhi chalta rahe
-        "https://pharma-share-pumq-5jqmyu5t3-ronitmaurya53s-projects.vercel.app" // Aapka live Vercel link
-    ],
-    credentials: true
-}));
+    credentials : true,
+    origin : process.env.FRONTEND_URL
+}))
+
+
 
 
 app.use(express.json())
